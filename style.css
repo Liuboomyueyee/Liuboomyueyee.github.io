@@ -48,30 +48,41 @@
     filter: hue-rotate(180deg);
   }
 }
-
 button {
   --primary-color: #645bff;
   --secondary-color: #fff;
   --hover-color: #111;
   --arrow-width: 10px;
   --arrow-stroke: 2px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 0;
   border-radius: 20px;
   color: var(--secondary-color);
   padding: 1em 1.8em;
   background: var(--primary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-transition: 0.2s background;
   transition: 0.2s background;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 0.6em;
   font-weight: bold;
 }
 
 button .arrow-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 button .arrow {
@@ -80,21 +91,26 @@ button .arrow {
   background: var(--primary-color);
   height: var(--arrow-stroke);
   position: relative;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 button .arrow::before {
   content: "";
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
   border: solid var(--secondary-color);
   border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
   display: inline-block;
   top: -3px;
   right: 3px;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
   padding: 3px;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 button:hover {
