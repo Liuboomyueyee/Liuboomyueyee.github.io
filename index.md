@@ -10,7 +10,7 @@
  <div class="slider" style="--i:4">    </div>  
  </section>
  <br>
-<button onclick="window.location.href='\blog\index.html'">
+<button onclick="window.location.href='/blog/index.html'">
     My Blog
     <div class="arrow-wrapper">
         <div class="arrow"></div>
