@@ -2,4 +2,4 @@
 
 ---
 
-1. [访问github，steamcommunity,steam等](/blog/1/index.md)
+1. [访问github，steamcommunity,steam等](/blog/1/index.html)
