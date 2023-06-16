@@ -1,4 +1,8 @@
-background:url(/background.png) no-repeat center;
+body
+{
+  background:url(/background.png) no-repeat center;
+}
+
 
 .loader {
   display: flex;
