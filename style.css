@@ -1,6 +1,6 @@
 body
 {
-  background:url(/background.png) no-repeat center;
+  background: #fff url(’/background.png‘) no-repeat fixed center;
 }
 
 
