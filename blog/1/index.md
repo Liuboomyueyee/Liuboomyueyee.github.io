@@ -16,9 +16,11 @@
 ## 302:
 ### 打开302(不行尝试管理员) 设置->能勾选的都选上
 
-## 保存设置，接下来调usbeam![1686965922732](https://file+.vscode-resource.vscode-cdn.net/f%3A/Liuboomyueyee.github.io/blog/1/image/index/1686965922732.png)
+## 保存设置，接下来调usbeam
+![1686965922732](/blog/1/image/index/1686965918036.png)
 
-### 左下角->网页相关![1686965970714](https://file+.vscode-resource.vscode-cdn.net/f%3A/Liuboomyueyee.github.io/blog/1/image/index/1686965970714.png)->302Discord加快,steam加快等
-
+### 左下角->网页相关
+![1686965970714](/blog/1/image/index/1686965922732.png)->302Discord加快,steam加快等
+![](/blog/1/image/index/1686965960684.png)
 然后记得重启302
 像discord都可以访问了
